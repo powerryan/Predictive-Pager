@@ -1,29 +1,12 @@
-CS3753 (Operating Systems)
-Spring 2012
-University of Colorado Boulder
-Programming Assignment 4
-Public Code
-
-By Andy Sayler - 2012
-http://www.andysayler.com
-
-Adopted From
-Assignment by Dr. Alva Couch
-http://www.cs.tufts.edu/~couch/
-
-With help from:
-Junho Ahn - 2012
-
----Folders---
-handout - Assignment description and documentation
+Ryan Power
 
 ---Files---
 Makefile - GNU makefile to build all relevant code
 pager-basic.c - Basic paging strategy implementation that runs one process at a time.
-pager-lru.c - LRU paging strategy implementation (you code this).
-pager-predict.c - Predictive paging strategy implementation (you code this).
+pager-lru.c - LRU paging strategy implementation
+pager-predict.c - Predictive paging strategy implementation
 api-test.c - A pageit() implmentation that tests that simulator state changes
-simulator.c - Core simualtor code (look but don't touch)
+simulator.c - Core simualtor code
 simulator.h - Exported functions and structs for use with simulator
 programs.c - Defines test "programs" for simulator to run
 pgm*.pseudo - Pseudo code of test programs from which programs.c was generated.
@@ -44,8 +27,8 @@ Clean:
 View test options:
  ./test-* -help
 
-Run pager-basic test:
- ./test-basic
+Run pager-predict test:
+ ./test-predict
 
 Run API test:
  ./test-api
